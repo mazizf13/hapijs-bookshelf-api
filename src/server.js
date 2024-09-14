@@ -1,13 +1,13 @@
-import Hapi from "@hapi/hapi";
-import booksRoutes from "./routes/booksRoutes.js";
+import Hapi from '@hapi/hapi';
+import booksRoutes from './routes/booksRoutes.js';
 
 const init = async () => {
   const server = Hapi.server({
     port: 9000,
-    host: "localhost",
+    host: 'localhost',
     routes: {
       cors: {
-        origin: ["*"],
+        origin: ['*'],
       },
     },
   });

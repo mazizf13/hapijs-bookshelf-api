@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./src/server.js",
-    "lint": "eslint ./src",
-    "format:write": "prettier --write ."
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
@@ -19,9 +18,7 @@
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "eslint": "^9.10.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.30.0",
-    "globals": "^15.9.0",
-    "prettier": "^3.3.3"
+    "eslint-config-google": "^0.14.0",
+    "globals": "^15.9.0"
   }
 }
